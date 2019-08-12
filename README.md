@@ -9,16 +9,17 @@ file and works accordingly. The main tasks performed by IoC container are:
 * Assemble the dependencies between the objects
 
 The advantages of this architecture are:
-1.decoupling the execution of a task from its implementation.
 
-2.making it easier to switch between different implementations.
+1.Decoupling the execution of a task from its implementation.
 
-3.greater modularity of a program.
+2.Making it easier to switch between different implementations.
 
-4.greater ease in testing a program by isolating a component or mocking its dependencies and allowing components to communicate
+3.Greater modularity of a program.
+
+4.Greater ease in testing a program by isolating a component or mocking its dependencies and allowing components to communicate
 through contracts.
 
 Configuration of Spring container includes:
-1. configure spring beans
+1. Configure spring beans
 2. Create Spring Container.
 3. Retrive beans from the container
